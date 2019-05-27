@@ -1,6 +1,4 @@
-# react-redux-starter
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple starter kit to build client-side apps with React and Redux. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
