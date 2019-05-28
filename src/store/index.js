@@ -2,7 +2,7 @@ import createRootReducer from "./reducers";
 import { applyMiddleware, createStore } from "redux";
 import { createLogger } from "redux-logger";
 import { createBrowserHistory } from "history";
-import { routerMiddleware, ROUTER_LOCATION_CHANGE } from "connected-react-router";
+import { routerMiddleware, LOCATION_CHANGE } from "connected-react-router";
 import { persistStore, persistReducer, PERSIST, REHYDRATE } from "redux-persist";
 import storage from "redux-persist/lib/storage"
 
@@ -17,7 +17,7 @@ middlewares.push(
 // Enable additional logging in development environment.
 if (process.env.NODE_ENV === "development") {
   const blacklist = [
-    ROUTER_LOCATION_CHANGE,
+    LOCATION_CHANGE,
     PERSIST,
     REHYDRATE
   ];
