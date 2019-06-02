@@ -1,6 +1,6 @@
 # react-redux-starter-kit
 
-A simple starter kit to build client-side apps with React and Redux. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple starter kit to build client-side apps with React and Redux. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and some common settings on starting a new react-redux app: redux store, redux-logger, redux-persist, connected-react-router. Also added a simple counter component example using state.
 
 ## Available Scripts
 
